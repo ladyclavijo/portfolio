@@ -40,6 +40,14 @@
     color: #1CB698;
 }
 
+.nav-responsive {
+    background-color: #1CB698;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* display: none; */
+}
 
 
 @media screen and (max-width: 768px) {
