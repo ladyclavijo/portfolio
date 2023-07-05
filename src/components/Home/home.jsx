@@ -1,7 +1,7 @@
 import "./home.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../images/logo.png";
+// import logo from "../../images/logo.png";
 
 
 function Home () {
@@ -13,7 +13,7 @@ function Home () {
 
                     <div className="logo">
                         <Link to="/">
-                            <img src={logo} alt="logo" />
+                            <a href="#">Lady</a>
                         </Link>
                     </div>
 
@@ -46,7 +46,7 @@ function Home () {
                     </nav>
 
                     <div className="nav-responsive">
-                        <i className="fa-regular fa-bars"></i>
+                        <i className="fa-solid fa-bars"></i>
                     </div>
 
                 </header>
