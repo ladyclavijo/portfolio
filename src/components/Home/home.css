@@ -46,7 +46,7 @@
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
-    /* display: none; */
+    display: none;
 }
 
 
@@ -75,9 +75,9 @@
 }
 
 .index .container-banner{
-    padding: 20px;
+    padding: 15px;
     background-color: #1e2326;
-    max-width: 350px;
+    max-width: 300px;
     margin: auto;
     text-align: center;
     border-radius: 40px;
@@ -88,13 +88,13 @@
     margin-top: 40px;
     border: 10px solid #1CB698;
     display: block;
-    width: 80%;
+    width: 50%;
     margin: auto;
     border-radius: 100%;
 }
 
 .index .container-banner h1{
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     font-size: 45px;
 }
@@ -102,6 +102,7 @@
 .index .container-banner h2{
     font-size: 16px;
     font-weight: normal;
+    margin-bottom: 10px;
 }
 
 .index .container-banner .networks a{
@@ -113,9 +114,9 @@
     width: 42px;
     height: 42px;
     line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;    
-    transition: .3s;
+    margin: 15px 10px;
+    font-size: 22px;    
+    transition: 0.8s;
 }
 
 .index .container-banner .networks a:hover{

@@ -2,7 +2,11 @@ import "./home.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import profileImage from "../../images/black.png";
-
+import About from "../About/about";
+import Skills from "../Skills/skills";
+import Curriculum from "../Curriculum/curriculum";
+import Portfolio from "../Portfolio/portfolio";
+import Contact from "../Contact/contact";
 
 function Home () {
 
@@ -71,6 +75,12 @@ function Home () {
                     </div>
                 </div>
             </section>
+
+            <About />
+            <Skills />
+            <Curriculum />
+            <Portfolio />
+            <Contact />
 
         </div>        
     );
