@@ -1,6 +1,5 @@
 import "./home.css";
 import React from "react";
-import { Link } from "react-router-dom";
 import profileImage from "../../images/black.png";
 import About from "../About/about";
 import Skills from "../Skills/skills";
@@ -17,35 +16,47 @@ function Home () {
                 <header>
 
                     <div className="logo">
-                        <Link to="/">
-                            <a href="#">Lady</a>
-                        </Link>
+                            <a href="#">
+                                Lady
+                            </a>
                     </div>
 
                     <nav id="nav">
                         <ul>
                             <li>
-                                <Link to="/">Home</Link>
+                                <a href="#">
+                                    Home
+                                </a>
                             </li>
 
                             <li>
-                                <Link to="/about">About me</Link>
+                                <a href="#about">
+                                    About me
+                                </a>
                             </li>
 
                             <li>
-                                <Link to="/skills">Skills</Link>
+                                <a href="#skills">
+                                    Skills
+                                </a>
                             </li>
 
                             <li>
-                                <Link to="/curriculum">Curriculum</Link>
+                                <a href="#curriculum">
+                                    Curriculum
+                                </a>
                             </li>
 
                             <li>
-                                <Link to="/portfolio">Portfolio</Link>
+                                <a href="#portfolio">
+                                    Portfolio
+                                </a>
                             </li>
 
                             <li>
-                                <Link to="/contact">Contact</Link>
+                                <a href="#contact">
+                                    Contact
+                                </a>
                             </li>
                         </ul>
                     </nav>
