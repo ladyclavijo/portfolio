@@ -2,7 +2,6 @@ import "./home.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import profileImage from "../../images/black.png";
-// import logo from "../../images/logo.png";
 
 
 function Home () {
@@ -53,7 +52,7 @@ function Home () {
                 </header>
             </div>
 
-      //------------------------ SECCION INICIO -------------------
+      //------------------------ HOME SECTION -------------------
             <section id="home" className="index">
                 <div className="container-banner">
                     <div className="container-img">
