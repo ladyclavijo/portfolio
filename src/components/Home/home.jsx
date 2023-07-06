@@ -1,6 +1,7 @@
 import "./home.css";
 import React from "react";
 import { Link } from "react-router-dom";
+import profileImage from "../../images/black.png";
 // import logo from "../../images/logo.png";
 
 
@@ -51,6 +52,26 @@ function Home () {
 
                 </header>
             </div>
+
+      //------------------------ SECCION INICIO -------------------
+            <section id="home" className="index">
+                <div className="container-banner">
+                    <div className="container-img">
+                        <img src={profileImage} alt=""/>
+                    </div>
+                    <h1>Lady Clavijo</h1>
+                    <h2>Jr. Full Stack Developer</h2>
+                    <div className="networks">
+                        <a href="https://www.linkedin.com/in/ladyclavijo/" target="_blank" rel="noopener noreferrer">
+                            <i className="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/ladyclavijo" target="_blank" rel="noopener noreferrer">
+                            <i className="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
         </div>        
     );
 };
