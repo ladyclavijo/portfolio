@@ -8,6 +8,7 @@ function Home () {
 
     return (
         <div className="container-home">
+     //------------------------ HEADER SECTION ----------------------
             <div className="container-header">
                 <header>
 
