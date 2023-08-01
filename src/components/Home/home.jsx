@@ -75,7 +75,7 @@ function Home () {
                         <img src={profileImage} alt=""/>
                     </div>
                     <h1>Lady Clavijo</h1>
-                    <h2>Jr. Full Stack Developer</h2>
+                    <h2>Full Stack Developer</h2>
                     <div className="networks">
                         <a href="https://www.linkedin.com/in/ladyclavijo/" target="_blank" rel="noopener noreferrer">
                             <i className="fa-brands fa-linkedin-in"></i>
