@@ -14,41 +14,42 @@ const Introduction = () => {
 
                 <div className="flex flex-col justify-center max-w-md">
                     <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
-                        Si puedes pensarlo,
+                        Espacio de
                         <TypeAnimation
 
                         sequence={[
-                            "puedes programarlo",
+                            "creación.",
                             1000,
-                            "puedes optimizarlo",
+                            "desarrollo.",
                             1000,
-                            "puedes implementarlo",
+                            "innovación.",
                             1000,
-                            "puedes desarrollarlo",
+                            "exploración.",
                             1000
                         ]} 
                         wrapper="span"
                         speed={50}
+
                         repeat={Infinity}
                         className="block font-bold text-secondary"
                         />
                     </h1>
 
                     <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-                        Estudiante de Ingeniería Aeroespacial y Programación 
+                        Estudiante de Ingeniería Aeroespacial, Ingeniería en Computación y Programación 
                     </p>
 
                     <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
                         <Link 
                         href="/portfolio"
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
-                            Ver proyectos
+                            Explorar proyectos
                         </Link>
 
                         <a 
                         href="mailto:layclavijo10@gmail.com"
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary">
-                            Contacta conmigo
+                            Contactar con la nave
                         </a>
 
                     </div>

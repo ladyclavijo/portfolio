@@ -11,8 +11,8 @@ const PageAboutMe = () => {
             <ContainerPage>
                 <div className="flex flex-col justify-center items-center h-full">
                     <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
-                        <span>Toda mi</span>{" "}
-                        <span className="font-bold text-secondary">trayectoria profesional</span>
+                        <span>Trayectoria profesional</span>{" "}
+                        <span className="font-bold text-secondary">en la Tierra</span>
                     </h1>
                 </div>
 
@@ -26,5 +26,4 @@ const PageAboutMe = () => {
         </>
     );
 }
-
 export default PageAboutMe;
