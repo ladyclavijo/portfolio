@@ -106,7 +106,7 @@ export const dataAboutPage = [
         id: 6,
         title: "Full Stack Developer",
         subtitle: "HENRY",
-        description: "",
+        description: "700 horas de cursado teórico-práctico. Henry Bootcamp con tecnologías como Javascript, HTML y CSS.",
         date: "Jul 2023",
     },
     {
@@ -125,9 +125,9 @@ export const dataAboutPage = [
     },
     {
         id: 9,
-        title: "NextJs, Typescript y Framer Motion",
+        title: "Python, NextJs, Typescript y Framer Motion",
         subtitle: "Autodidacta",
-        description: "Documentación",
+        description: "Documentación, videos en distintas plataformas como Youtube y Google.",
         date: "Marzo 2024",
     },
 ]
@@ -141,7 +141,7 @@ export const dataCounter = [
         lineRightMobile: true,
     },
     {
-        id: 0,
+        id: 1,
         endCounter: 3,
         text: "Proyectos finalizados",
         lineRight: false,
