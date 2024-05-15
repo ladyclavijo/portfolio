@@ -165,17 +165,17 @@ export const serviceData = [
     {
         icon: <Computer />,
         title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades.",
+        description: "Construcción de sitios web personalizados, adaptados a tus requisitos y especificaciones.",
     },
     {
         icon: <Pencil />,
         title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario.",
+        description: "Trazado de interfaces web profesionales, enfocadas en la experiencia del usuario.",
     },
     {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia.",
+        icon: <Rocket />,
+        title: "Tecnologias",
+        description: "HTML, CSS, Javascript, Next.js, Tailwind, Typescript, React.js, Python y Figma.",
     },
     // {
     //     icon: <Rocket />,
