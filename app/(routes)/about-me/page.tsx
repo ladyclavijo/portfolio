@@ -1,4 +1,4 @@
-import Avatar from "@/components/avatar";
+// import Avatar from "@/components/avatar";
 import ContainerPage from "@/components/container";
 import CounterServices from "@/components/counter-services";
 import TimeLine from "@/components/time-line";
@@ -21,7 +21,7 @@ const PageAboutMe = () => {
                 </div>
 
                 <TimeLine />
-                <Avatar />
+                {/* <Avatar /> */}
             </ContainerPage>
         </>
     );

@@ -1,4 +1,4 @@
-import AvatarPortfolio from "@/components/avatar-portfolio";
+// import AvatarPortfolio from "@/components/avatar-portfolio";
 import ContainerPage from "@/components/container";
 import PortfolioBox from "@/components/portfolio-box";
 import TransitionPage from "@/components/transition-page";
@@ -8,7 +8,7 @@ const PortfolioPage = () => {
     return (
         <ContainerPage>
             <TransitionPage />
-            <AvatarPortfolio />
+            {/* <AvatarPortfolio /> */}
 
             <div className="flex flex-col justify-center h-full">
                 <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5">
@@ -22,7 +22,7 @@ const PortfolioPage = () => {
                     ))}
                 </div>
             </div>
-        </ContainerPage>
+        </ContainerPage> 
     );
 }
 

@@ -4,7 +4,7 @@ import MotionTransition from "./transition-component";
 const AvatarServices = () => {
     return (
         <MotionTransition position="right" className="bottom-0 left-0 hidden md:inline-block md:absolute">
-            <Image src="/astronaut.png" width={300} height={300} className="w-[250px] h-full" alt="Avatar" />
+            <Image src="/avatar.png" width={300} height={300} className="w-[300px] h-full" alt="Avatar" />
         </MotionTransition>
     );
 }
