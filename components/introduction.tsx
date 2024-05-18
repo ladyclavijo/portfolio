@@ -36,20 +36,21 @@ const Introduction = () => {
                     </h1>
 
                     <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-                        Estudiante de Ingeniería Aeroespacial, Ingeniería en Computación y Programación 
+                        Estudiante de Ingeniería Aeroespacial, Ingeniería en Computación y Programación. 
                     </p>
 
                     <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
                         <Link 
-                        href="/portfolio"
+                        href="mailto:layclavijo10@gmail.com"
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
-                            Explorar proyectos
+                            Contactar con la nave
                         </Link>
 
                         <a 
-                        href="mailto:layclavijo10@gmail.com"
+                        href="/CV-LadyClavijo.pdf"
+                        download="CV-LadyClavijo.pdf"
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary">
-                            Contactar con la nave
+                            Descargar Currículum
                         </a>
 
                     </div>

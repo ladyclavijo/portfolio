@@ -22,7 +22,7 @@ const ServicesPage = () => {
                         </p>
                         <div className="mb-6 inline-block">
                         <a href="mailto: layclavijo10@gmail.com">
-                        <button className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/65">Contactar con la nave</button>
+                        <button className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary">Contactar con la nave</button>
                         </a>
                         </div>
                 </div>
