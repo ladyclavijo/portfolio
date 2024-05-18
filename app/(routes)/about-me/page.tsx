@@ -12,7 +12,7 @@ const PageAboutMe = () => {
                 <div className="flex flex-col justify-center items-center h-full">
                     <h1 className="text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">
                         <span>Trayectoria profesional</span>{" "}
-                        <span className="font-bold text-secondary">en la Tierra</span>
+                        <span className="font-bold text-secondary">en la Tierra.</span>
                     </h1>
                 </div>
 
