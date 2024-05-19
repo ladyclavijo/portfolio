@@ -12,7 +12,7 @@ const Introduction = () => {
                 <Image src="/astronaut.png" priority width="400" height="400" alt="Profile pic" />
                 </div>
 
-                <div className="flex flex-col justify-center max-w-md">
+                <div className="flex flex-col justify-center items-center md:items-start max-w-md mx-auto">
                     <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
                         Espacio de
                         <TypeAnimation
@@ -35,8 +35,8 @@ const Introduction = () => {
                         />
                     </h1>
 
-                    <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-                        Estudiante de Ingeniería Aeroespacial, Ingeniería en Computación y Programación. 
+                    <p className="mb-2 text-xl md:mb-8 text-justify">
+                        Estudiante de Ing. Aeroespacial, Ing. en Computación y Programación. 
                     </p>
 
                     <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
