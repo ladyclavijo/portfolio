@@ -128,7 +128,7 @@ export const dataAboutPage = [
         title: "Python, NextJs, Typescript y Framer Motion",
         subtitle: "Autodidacta",
         description: "Documentación, videos en distintas plataformas como Youtube y Google.",
-        date: "Marzo 2024",
+        date: "Mar 2024",
     },
 ]
 
