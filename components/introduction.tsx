@@ -43,14 +43,14 @@ const Introduction = () => {
                         <Link 
                         href="mailto:layclavijo10@gmail.com"
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
-                            Contactar con la nave
+                            Contactar
                         </Link>
 
                         <a 
                         href="/CV-LadyClavijo.pdf"
                         download="CV-LadyClavijo.pdf"
                         className="px-3 py-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-secondary">
-                            Descargar Currículum
+                            Descargar CV
                         </a>
 
                     </div>
