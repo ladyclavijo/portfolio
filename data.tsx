@@ -175,7 +175,7 @@ export const serviceData = [
     {
         icon: <Rocket />,
         title: "Tecnologias",
-        description: "HTML, CSS, Javascript, Next.js, Tailwind, Typescript, React.js, Python y Figma.",
+        description: "HTML, CSS, Javascript, Next.js, Tailwind, Typescript, React.js, Python, Framer Motion y Figma.",
     },
     // {
     //     icon: <Rocket />,
@@ -194,8 +194,8 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "Dog's App",
-        image: "/image-2.jpg",
+        title: "DoggyDex",
+        image: "/doggy-dex.png",
         urlGithub: "https://github.com/ladyclavijo/PI-Dogs",
         urlDemo: "https://github.com/ladyclavijo/PI-Dogs",
     },
