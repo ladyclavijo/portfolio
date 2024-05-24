@@ -10,14 +10,14 @@ const ServicesPage = () => {
             {/* <CircleImage /> */}
             {/* <AvatarServices /> */}
             <div className="grid items-center justify-center h-screen max-w-4xl gap-6 mx-auto md:grid-cols-2 md:px-15">
-                <div className="max-w-[450px] mt-10 md:mt-0 mx-auto px-4 text-center md:text-left flex flex-col justify-center">
+                <div className="max-w-[450px] mt-20 md:mt-0 mx-auto px-4 text-center flex flex-col justify-center">
                     <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-2">
                         Misiones{" "}
                         <span className="font-bold text-secondary">
                             espaciales.
                         </span>
                     </h1>
-                        <p className="text-xl text-gray-300 text-justify mt-4 md:mt-0">
+                        <p className="text-xl text-gray-300 text-justify">
                             Ofrezco servicios especializados en la creación de sitios web y aplicaciones atractivas y funcionales. 
                         </p>
                         {/* <div className="inline-block">
@@ -28,7 +28,7 @@ const ServicesPage = () => {
                 </div>
 
             {/* SLIDER */}
-                <div className="md:ml-4 mt-10 md:mt-0">
+                <div className="md:ml-4">
                     <SliderServices />
                 </div>
             </div>
